@@ -1,0 +1,58 @@
+.upload-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(39, 39, 75);
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+
+.choose-file-button {
+  padding: 0.625em 1.25em;
+  background-color: #5067ff;
+  color: #fff;
+  border: none;
+  border-radius: 0.1875em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choose-file-button:hover {
+  background-color: #3d51cc;
+}
+
+.file-list {
+  display: flex;
+  position: fixed;
+  grid-gap: 0.625em;
+  top: 33em;
+}
+
+.single-file {
+  border: 0.0625em solid #ccc;
+  padding: 0.625em;
+  display: flex;
+  flex-direction: column;
+}
+
+.file__name {
+  margin-bottom: 0.625em;
+}
+
+.delete-button {
+  padding: 0.3125em 0.625em;
+  background-color: #ff5050;
+  color: #fff;
+  border: none;
+  border-radius: 0.1875em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #dd4040;
+}
